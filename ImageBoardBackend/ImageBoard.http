@@ -1,0 +1,6 @@
+@ImageBoardProto_HostAddress = http://localhost:5181
+
+GET {{ImageBoardProto_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

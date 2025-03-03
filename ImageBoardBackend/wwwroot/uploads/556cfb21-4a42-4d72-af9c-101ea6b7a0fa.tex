@@ -1,0 +1,250 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Tom Taylor} \\ \vspace{5pt}
+    \small 07709847141 $|$ \href{mailto:x@x.com}{\underline{tomajtaylor@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{https://www.linkedin.com/in/tom-taylor-93503b279/}} $|$
+    \href{https://github.com/...}{\underline{github.com/tolmdyn}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of London}{}
+      {MSc Computer Science (Distinction Grade)}{2021 -- 2023}
+    \resumeSubheading
+      {Goldsmiths, University of London}{}
+      {BA Design (Hons)}{2006 -- 2009}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Previous Roles}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Independent Software Development Role} {X -- Present}
+      {Self-directed}{Remote}
+      \resumeItemListStart
+        \resumeItem{Designed and implemented a REST API for managing dynamic content.}
+        \resumeItem{Developed a full-stack web application using Node.js, React, PostgreSQL, and Docker, emphasizing scalability and common development practices.}
+        \resumeItem{Contributed to an open-source initiative by exploring and integrating community-focused features to improve accessibility and collaboration.}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+      {Arts Technician and Consultant} {X -- Present}
+{Various Clients and Organizations incl EEA, Greenwich; 101 Outdoor Arts, Newbury} {(On-site)}
+      \resumeItemListStart
+        \resumeItem{Supported artists in integrating interactive technologies including bespoke hardware, software, and electronics, into installations.}
+        \resumeItem{Partnered with arts organizations on construction projects, set building, workshop maintenance, and event support, including lighting and sound systems.}
+        \resumeItem{Built client relationships, ability to conveying technical information, responding to tight deadlines and on-call for emergency situations.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Mobile Boat Mechanic and Installer}{X -- X}
+      {Self-Employed}{On-site}
+      \resumeItemListStart
+      \resumeItem{Maintenance, repair, and full rebuilds of engines, gearboxes and drivetrain on inland vessels, for a self-built client base.}
+      \resumeItem{Designed and installed bespoke electric, solar, heating, and plumbing solutions.}
+      \resumeItem{Demonstrated adaptability and problem-solving by addressing unique mechanical and electrical challenges on-site.}
+\resumeItemListEnd
+        
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+%    \resumeSubheading
+%      {Information Technology Support Specialist}{Sep. 2018 -- Present}
+%      {Southwestern University}{Georgetown, TX}
+%      \resumeItemListStart
+%        \resumeItem{Communicate with managers to set up campus computers used on campus}
+%        \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
+%        \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
+%    \resumeItemListEnd
+
+ %   \resumeSubheading
+ %     {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
+ %     {Southwestern University}{Georgetown, TX}
+ %     \resumeItemListStart
+ %       \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
+ %       \resumeItem{Developed a game in Java to test the generated dungeons}
+ %       \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
+ %       \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
+ %       \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
+ %       \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+%      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+           \resumeProjectHeading
+          {\textbf{Multiple Agent Simulator} $|$ \emph{JavaScript (Canvas), C\# }}{ October 2024 - Present}
+          \resumeItemListStart
+            \resumeItem{Developed a sandbox simulation of discrete agents (modeled after ant colonies) navigating an environment with predefined goals.}
+            \resumeItem{Focused on experimenting with emergent behavior and organic inspired algorithms}
+            \resumeItem{Practice graphical programming and real-time simulation techniques.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{PSDDN} $|$ \emph{JavaScript, NodeJS, SQLite}}{June 2023 -- October 2023}
+          \resumeItemListStart
+            \resumeItem{Developed a TUI document distribution application}
+            \resumeItem{Designed a custom peer-to-peer protocol and overlay network topology to support decentralised communication.}
+            \resumeItem{Integrated cryptography libraries to enhance authentication without a single central authority.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Asteroid Classification Project} $|$ \emph{Python, Pandas, SciKitLearn, Jupyter Notebook, Git}}{ May 2020}
+          \resumeItemListStart
+            \resumeItem{Analyzed an open dataset using machine learning tools to identify potentially hazardous Asteroids}
+            \resumeItem{Delivered an annotated Jupyter Notebook and a detailed report, visualized with Matplotlib.}
+          \resumeItemListEnd
+        \resumeProjectHeading
+          {\textbf{GBA Drum Tool} $|$ \emph{C, libgba}}{ February 2015}
+          \resumeItemListStart
+            \resumeItem{Developed a sample-based drum machine application for the Nintendo Gameboy Advance console.}
+            \resumeItem{ low-level programming skills to optimize for hardware limitations.}
+            \resumeItem{Published as an open-source tool.}
+          \resumeItemListEnd
+ 
+          
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages (Proficient)}{: JavaScript, Java, Python, C, HTML/CSS} \\
+     \textbf{Frameworks}{: React, Node.js, JUnit, WordPress} \\
+     \textbf{Developer Tools}{: Git, Docker, Google Cloud Platform, VS Code, IntelliJ, Vim} \\
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}

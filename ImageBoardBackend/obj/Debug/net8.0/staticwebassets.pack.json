@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/uploads/176b2416-76b6-4197-805b-27b0fc2a8a70.png",
+      "PackagePath": "staticwebassets/uploads/176b2416-76b6-4197-805b-27b0fc2a8a70.png"
+    },
+    {
+      "Id": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/uploads/273ea218-da1a-44ad-b1d2-965d737e8086.jpeg",
+      "PackagePath": "staticwebassets/uploads/273ea218-da1a-44ad-b1d2-965d737e8086.jpeg"
+    },
+    {
+      "Id": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/uploads/32944622-1355-425a-8bd9-816443ece423.jpg",
+      "PackagePath": "staticwebassets/uploads/32944622-1355-425a-8bd9-816443ece423.jpg"
+    },
+    {
+      "Id": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/uploads/5346a2f2-bb4d-4a6b-aa81-68b4c42f3e32.jpg",
+      "PackagePath": "staticwebassets/uploads/5346a2f2-bb4d-4a6b-aa81-68b4c42f3e32.jpg"
+    },
+    {
+      "Id": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/uploads/54e34aaa-e1e4-4588-b26f-b6a64b7656f2.jpg",
+      "PackagePath": "staticwebassets/uploads/54e34aaa-e1e4-4588-b26f-b6a64b7656f2.jpg"
+    },
+    {
+      "Id": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/uploads/556cfb21-4a42-4d72-af9c-101ea6b7a0fa.tex",
+      "PackagePath": "staticwebassets/uploads/556cfb21-4a42-4d72-af9c-101ea6b7a0fa.tex"
+    },
+    {
+      "Id": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/uploads/89fef9bb-1e54-4642-aa76-f5d6653a93fd.jpg",
+      "PackagePath": "staticwebassets/uploads/89fef9bb-1e54-4642-aa76-f5d6653a93fd.jpg"
+    },
+    {
+      "Id": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/uploads/9d540872-1411-4fb8-967a-7ad57bcb8b51.webp",
+      "PackagePath": "staticwebassets/uploads/9d540872-1411-4fb8-967a-7ad57bcb8b51.webp"
+    },
+    {
+      "Id": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/uploads/fc4e0ee2-9a84-4cf3-bf0d-c510380e25d3.jpg",
+      "PackagePath": "staticwebassets/uploads/fc4e0ee2-9a84-4cf3-bf0d-c510380e25d3.jpg"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.ImageBoard.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.ImageBoard.props",
+      "PackagePath": "build\\ImageBoard.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ImageBoard.props",
+      "PackagePath": "buildMultiTargeting\\ImageBoard.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ImageBoard.props",
+      "PackagePath": "buildTransitive\\ImageBoard.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
