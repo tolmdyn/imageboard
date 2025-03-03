@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ImageBoard")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+098d7724b735cef52ca521c7a3bb572f0205cfd0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ImageBoard")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ImageBoard")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
