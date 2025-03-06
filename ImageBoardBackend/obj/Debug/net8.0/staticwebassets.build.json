@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oJGGhEke0ul+LQtQM9zYmvbqLETsxQkXJjpfAC9gP8U=",
+  "Hash": "DRtMQzKJ2AzcHhf8R9rzd7YVEVL7wwz89NwdQulGp28=",
   "Source": "ImageBoard",
   "BasePath": "_content/ImageBoard",
   "Mode": "Default",
@@ -34,6 +34,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/uploads/176b2416-76b6-4197-805b-27b0fc2a8a70.png"
+    },
+    {
+      "Identity": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/uploads/228a3ac2-d94c-4763-8d2f-5d081fe9ca97.png",
+      "SourceId": "ImageBoard",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/",
+      "BasePath": "_content/ImageBoard",
+      "RelativePath": "uploads/228a3ac2-d94c-4763-8d2f-5d081fe9ca97.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/228a3ac2-d94c-4763-8d2f-5d081fe9ca97.png"
     },
     {
       "Identity": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/uploads/273ea218-da1a-44ad-b1d2-965d737e8086.jpeg",
@@ -131,6 +150,25 @@
       "OriginalItemSpec": "wwwroot/uploads/556cfb21-4a42-4d72-af9c-101ea6b7a0fa.tex"
     },
     {
+      "Identity": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/uploads/6d332bbf-5632-4860-8b64-b4c33d8a4e9a.png",
+      "SourceId": "ImageBoard",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/",
+      "BasePath": "_content/ImageBoard",
+      "RelativePath": "uploads/6d332bbf-5632-4860-8b64-b4c33d8a4e9a.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/6d332bbf-5632-4860-8b64-b4c33d8a4e9a.png"
+    },
+    {
       "Identity": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/uploads/89fef9bb-1e54-4642-aa76-f5d6653a93fd.jpg",
       "SourceId": "ImageBoard",
       "SourceType": "Discovered",
@@ -167,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/uploads/9d540872-1411-4fb8-967a-7ad57bcb8b51.webp"
+    },
+    {
+      "Identity": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/uploads/f7bee0c9-f63f-4a46-ba06-5f83f9cdfd48.jpg",
+      "SourceId": "ImageBoard",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/",
+      "BasePath": "_content/ImageBoard",
+      "RelativePath": "uploads/f7bee0c9-f63f-4a46-ba06-5f83f9cdfd48.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/f7bee0c9-f63f-4a46-ba06-5f83f9cdfd48.jpg"
     },
     {
       "Identity": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/uploads/fc4e0ee2-9a84-4cf3-bf0d-c510380e25d3.jpg",

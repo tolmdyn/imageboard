@@ -52,14 +52,6 @@ namespace ImageBoard.Controllers
       return Ok(posts);
     }
 
-    // [HttpPost]
-    // public async Task<ActionResult<Post>> CreatePost([FromBody] Post post)
-    // {
-    //   _context.Posts.Add(post);
-    //   await _context.SaveChangesAsync();
-    //   return CreatedAtAction(nameof(GetPost), new { id = post.Id }, post);
-    // }
-
     [HttpPost]
     public async Task<IActionResult> CreatePost([FromForm] PostUploadDto postDto)
     {
@@ -87,8 +79,8 @@ namespace ImageBoard.Controllers
       var newPost = new Post
     {
         Title = postDto.Title!,
-        Content = postDto.Content ?? "", // Allow blank
-        Category = postDto.Category!,
+        Content = postDto.Content ?? "",
+        Category = postDto.Category,
         Author = postDto.Author,
         ImageUrl = $"/uploads/{fileName}",
         CreatedAt = DateTime.UtcNow

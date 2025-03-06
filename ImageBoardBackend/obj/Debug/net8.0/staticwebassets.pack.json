@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/uploads/176b2416-76b6-4197-805b-27b0fc2a8a70.png"
     },
     {
+      "Id": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/uploads/228a3ac2-d94c-4763-8d2f-5d081fe9ca97.png",
+      "PackagePath": "staticwebassets/uploads/228a3ac2-d94c-4763-8d2f-5d081fe9ca97.png"
+    },
+    {
       "Id": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/uploads/273ea218-da1a-44ad-b1d2-965d737e8086.jpeg",
       "PackagePath": "staticwebassets/uploads/273ea218-da1a-44ad-b1d2-965d737e8086.jpeg"
     },
@@ -25,12 +29,20 @@
       "PackagePath": "staticwebassets/uploads/556cfb21-4a42-4d72-af9c-101ea6b7a0fa.tex"
     },
     {
+      "Id": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/uploads/6d332bbf-5632-4860-8b64-b4c33d8a4e9a.png",
+      "PackagePath": "staticwebassets/uploads/6d332bbf-5632-4860-8b64-b4c33d8a4e9a.png"
+    },
+    {
       "Id": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/uploads/89fef9bb-1e54-4642-aa76-f5d6653a93fd.jpg",
       "PackagePath": "staticwebassets/uploads/89fef9bb-1e54-4642-aa76-f5d6653a93fd.jpg"
     },
     {
       "Id": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/uploads/9d540872-1411-4fb8-967a-7ad57bcb8b51.webp",
       "PackagePath": "staticwebassets/uploads/9d540872-1411-4fb8-967a-7ad57bcb8b51.webp"
+    },
+    {
+      "Id": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/uploads/f7bee0c9-f63f-4a46-ba06-5f83f9cdfd48.jpg",
+      "PackagePath": "staticwebassets/uploads/f7bee0c9-f63f-4a46-ba06-5f83f9cdfd48.jpg"
     },
     {
       "Id": "/home/tolm/Development/dotnet/ImageBoardProject/ImageBoardBackend/wwwroot/uploads/fc4e0ee2-9a84-4cf3-bf0d-c510380e25d3.jpg",

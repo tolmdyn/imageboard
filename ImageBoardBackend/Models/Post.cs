@@ -11,7 +11,7 @@ namespace ImageBoard.Models
     public string? Author { get; set; }
     public string Content { get; set; } = String.Empty;
     
-    public string Category { get; set; } = String.Empty;
+    public string? Category { get; set; } = String.Empty;
     public string ImageUrl { get; set; } = String.Empty;
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
   }

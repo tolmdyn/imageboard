@@ -9,7 +9,6 @@ namespace ImageBoard.DTOs
 
     public string? Content { get; set; }
 
-    // [Required(ErrorMessage = "Category is required.")]
     public string? Category { get; set; }
 
     public string? Author { get; set; } 
